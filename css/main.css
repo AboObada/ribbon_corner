@@ -1,0 +1,33 @@
+
+  .ribbon-top-right {
+    top: -1px;
+    right: 0px;
+    
+}
+.ribbon {
+    z-index: 10;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99999;
+}
+.ribbon-top-right span {
+  left: -34px;
+  top: 18px;
+  transform: rotate(45deg);
+}
+ .ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #65a11a;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+  text-transform: uppercase;
+  text-align: center;
+}
